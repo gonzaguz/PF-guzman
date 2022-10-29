@@ -1,0 +1,33 @@
+#tu-espacio{
+    background-color: rgb(24, 24, 24);
+    .container{
+        width: 100%;
+        text-align: center;
+        padding: 200px 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .texto{
+        width: 50%;
+        text-align: initial;
+        padding: 0px 30px;
+        color: white;
+        display: flex;
+        max-width: 600px;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            font-size: 3.0rem;
+            color: white;
+        }
+    }
+    .img-container{
+        background-image: url(../assets/imagenes/rac.JPG);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        border: 8px double gray;
+    }
+
+}

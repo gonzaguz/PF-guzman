@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Aboreto-Regular";
+    src: url(../assets/font/Aboreto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "ShadowsIntoLight-Regular";
+    src: url(../assets/font/ShadowsIntoLight-Regular.ttf);
+}
+.navbar {
+    padding: 20px;
+}
+@import "body";
+@import "header";
+@import "principal";
+@import "tu-espacio";
+.contactanos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    height: 40vh;
+    h2{
+        font-size: 2.5em;
+    }
+}
+.botonh{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgba(5, 5, 5, 0.514);
+    text-decoration: none;
+    &:hover{
+        background-color: whitesmoke;
+        color: black;
+    }
+}
+.btn {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet);
+    --bs-btn-border-color: var(--bd-violet);
+    --bs-btn-border-radius: .5rem;
+}
+footer{
+    .containerf{
+        text-align: center;
+    }
+}
+.topb{
+    display: flex;
+    justify-content: right;
+}
+@import "empresa";
+@import "cocinas";
+@import "containercon";
+
+@media (min-width: 768px){
+    #tu-espacio .container{
+        text-align: center;
+        padding: 200px 12px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #tu-espacio .texto{
+        width: 50%;
+        text-align: center;
+        padding: 0px 30px;
+        color: white;
+        display: flex;
+        max-width: 600px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #tu-espacio .img-container{
+        background-size: cover;
+        background-position: center center;
+        height: 600px;
+        width: 600px;
+        border: 8px double gray;
+    }
+    
+}

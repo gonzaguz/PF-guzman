@@ -1,0 +1,18 @@
+.containercon{
+    background-image: url(../assets/imagenes/fondo.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    .formulario{
+        text-align: center;
+        width: 40%;
+        justify-content: center;
+        background-color: gray;
+        color: white;
+        text-align: center;
+        border: 8px double gray;
+    }
+}

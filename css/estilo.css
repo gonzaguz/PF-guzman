@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Aboreto-Regular";
+  src: url(../assets/font/Aboreto-Regular.ttf); }
+
+@font-face {
+  font-family: "ShadowsIntoLight-Regular";
+  src: url(../assets/font/ShadowsIntoLight-Regular.ttf); }
+
+.navbar {
+  padding: 20px; }
+
+body {
+  font-family: "Aboreto-Regular";
+  margin: 0; }
+  body h2 {
+    font-size: 3.0rem;
+    color: white; }
+  body h1 {
+    font-size: 3.5em; }
+  body nav {
+    text-align: center; }
+  body p {
+    font-family: "ShadowsIntoLight-Regular";
+    font-size: 1.5rem; }
+
+header {
+  background-color: whitesmoke; }
+  header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white; }
+  header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px; }
+  header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white; }
+  header .logo {
+    width: 200px;
+    border-radius: 50%; }
+  header .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d; }
+  header #hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/imagenes/hedex.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+
+.principal {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  .principal img {
+    width: 600px;
+    height: 400px;
+    border: 2px double gray;
+    padding: 0.1rem;
+    flex-wrap: wrap; }
+    .principal img:hover {
+      opacity: .6;
+      border: solid white; }
+
+#tu-espacio {
+  background-color: #181818; }
+  #tu-espacio .container {
+    width: 100%;
+    text-align: center;
+    padding: 200px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  #tu-espacio .texto {
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+    color: white;
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: center; }
+    #tu-espacio .texto h2 {
+      font-size: 3.0rem;
+      color: white; }
+  #tu-espacio .img-container {
+    background-image: url(../assets/imagenes/rac.JPG);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    border: 8px double gray; }
+
+.contactanos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1d1d1d;
+  color: white;
+  height: 40vh; }
+  .contactanos h2 {
+    font-size: 2.5em; }
+
+.botonh {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: rgba(5, 5, 5, 0.514);
+  text-decoration: none; }
+  .botonh:hover {
+    background-color: whitesmoke;
+    color: black; }
+
+.btn {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet);
+  --bs-btn-border-color: var(--bd-violet);
+  --bs-btn-border-radius: .5rem; }
+
+footer .containerf {
+  text-align: center; }
+
+.topb {
+  display: flex;
+  justify-content: right; }
+
+.empresa {
+  text-align: center;
+  padding: 200px 12px;
+  display: flex;
+  justify-content: center;
+  background-color: gray; }
+  .empresa .img-empresa {
+    background-image: url(../assets/imagenes/bano.JPG);
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    width: 600px;
+    border: 8px double gray; }
+  .empresa .textoempresa {
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+    color: black;
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: center; }
+
+.cocinas {
+  background-image: url(../assets/imagenes/fondos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh; }
+  .cocinas .carou {
+    width: 100%;
+    display: flex;
+    padding: 0.1rem;
+    flex-wrap: wrap; }
+
+.menucocina {
+  text-align: center;
+  color: black; }
+
+.containercon {
+  background-image: url(../assets/imagenes/fondo.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh; }
+  .containercon .formulario {
+    text-align: center;
+    width: 40%;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border: 8px double gray; }
+
+@media (min-width: 768px) {
+  #tu-espacio .container {
+    text-align: center;
+    padding: 200px 12px;
+    flex-direction: row;
+    justify-content: space-between; }
+  #tu-espacio .texto {
+    width: 50%;
+    text-align: center;
+    padding: 0px 30px;
+    color: white;
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: center; }
+  #tu-espacio .img-container {
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    width: 600px;
+    border: 8px double gray; } }

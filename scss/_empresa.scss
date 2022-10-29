@@ -1,0 +1,26 @@
+.empresa{
+    text-align: center;
+    padding: 200px 12px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    .img-empresa{
+        background-image: url(../assets/imagenes/bano.JPG);
+        background-size: cover;
+        background-position: center center;
+        height: 600px;
+        width: 600px;
+        border: 8px double gray;
+        
+    }
+    .textoempresa{
+        width: 50%;
+        text-align: initial;
+        padding: 0px 30px;
+        color: black;
+        display: flex;
+        max-width: 600px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
